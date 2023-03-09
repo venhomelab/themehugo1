@@ -10,10 +10,12 @@
 
 // ========== Global ========== //
 // Font and Line Height
-$global-font-family: system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif !default;
-$global-font-size: 16px !default;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,600&display=swap&subset=latin-ext');
+$global-font-family: Open Sans, system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif !default;
+
+$global-font-size: 20px !default;
 $global-font-weight: 400 !default;
-$global-line-height: 1.5rem !default;
+$global-line-height: 2rem !default;
 
 // Color of the background
 $global-background-color: #fff !default;
@@ -24,15 +26,15 @@ $global-font-color: #161209 !default;
 $global-font-color-dark: #a9a9b3 !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
-$global-font-secondary-color-dark: #5d5d5f !default;
+$global-font-secondary-color: #333333 !default;
+$global-font-secondary-color-dark: #888888 !default;
 
 // Color of the link
 $global-link-color: #161209 !default;
 $global-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link
-$global-link-hover-color: #2d96bd !default;
+$global-link-hover-color: #007CF6 !default;
 $global-link-hover-color-dark: #fff !default;
 
 // Color of the border
@@ -81,11 +83,11 @@ $toc-title-font-size: 1.2rem !default;
 $toc-content-font-size: 1rem !default;
 
 // Color of the single link
-$single-link-color: #2d96bd !default;
-$single-link-color-dark: #55bde2 !default;
+$single-link-color: #007CF6 !default;
+$single-link-color-dark: #007CF6 !default;
 
 // Color of the hover single link
-$single-link-hover-color: #ef3982 !default;
+$single-link-hover-color: #8D89AF !default;
 $single-link-hover-color-dark: #bdebfc !default;
 
 // Color of the table background
@@ -103,7 +105,7 @@ $blockquote-color-dark: #59c5ec !default;
 
 // ========== Pagination ========== //
 // Color of the link in pagination
-$pagination-link-color: #2d96bd !default;
+$pagination-link-color: #007CF6 !default;
 $pagination-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link in pagination
@@ -117,7 +119,7 @@ $code-font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono"
 $code-font-size: .875rem !default;
 
 // Color of the code
-$code-color: #E74C3C !default;
+$code-color: #ff00ba !default;
 $code-color-dark: #E5BF78 !default;
 
 // Color of the code background

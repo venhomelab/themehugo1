@@ -18,6 +18,8 @@
   .post-meta {
     font-size: .875rem;
     color: $global-font-secondary-color;
+    font-style: italic;
+    padding-bottom: 1rem;
 
     span {
       display: inline-block;
@@ -30,7 +32,9 @@
     @include link(false, true);
 
     .author {
-      font-size: 1.05rem;
+      font-size: .875rem;
+      font-weight: 600;
+      font-style: normal;
     }
   }
 
@@ -89,7 +93,7 @@
     h5,
     h6 {
       font-weight: bold;
-      margin: 1.2rem 0;
+      margin: 3rem 0 1rem 0;
 
       [theme=dark] & {
         font-weight: bolder;
@@ -113,11 +117,11 @@
     }
 
     > h2 > .header-mark::before {
-      content: "#";
+      content: "|";
     }
 
     p {
-      margin: .5rem 0;
+      margin: 2rem 0;
     }
 
     b, strong {
